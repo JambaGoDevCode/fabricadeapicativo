@@ -53,7 +53,17 @@ two()
 
         
 
+    
+function calculatePurchaseAmount(amt){
+    const Taxa_rate = 0.08;
+    // calculate the new amout with the tax
+    amt = amt + (amt * Taxa_rate)
 
+    // return the new amount 
+    return amt
+}
+
+calculatePurchaseAmount(50)
 
 
 
