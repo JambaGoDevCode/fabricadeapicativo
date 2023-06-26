@@ -6,6 +6,19 @@
     <title>OnMouseDown</title>
 </head>
 <body>
-    <button style="width: 400px; height: 60px" onmousedown="console.log('Event onMouseDown')">Passar por cima</button>
+    <button style="width: 400px; height: 60px" 
+    onmousedown="click()"
+    onmouseup="leftClick()"
+    onmouseover="passTopClick()"
+    onmouseout="LeftpassTopClick()"
+    onmousemove="moveClick()"
+    >Passar por cima</button>
+
+    <button style="width: 400px; height: 60px" 
+    onclick="clicavel()"
+    oncontextmenu="botaoDireito()"
+    >Passar por cima</button>
+
+    <script src="app.js"></script>
 </body>
 </html>
